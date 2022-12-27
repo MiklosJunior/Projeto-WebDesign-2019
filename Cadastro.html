@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title> Cadastro do Usuário </title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	</head>
+	
+	<body>
+		
+		<!-- Inicio do Form -->
+		<div style="padding-left:80px; padding-right:80px;">
+			<div class="w3-container w3-red">
+		<h1>Cadastro do Usuário </h1>
+		</div>
+		<hr>
+		<form method="post" action="#" name="cadastro">
+			<br>
+				<input class="w3-input w3-border w3-white" type="text" name="usuário" placeholder="Informe o usuário" required><br><br>
+				<input class="w3-input w3-border w3-white" type="email" name="email" placeholder="Informe um email valido" required><br><br>
+				<input class="w3-input w3-border w3-white" type="password" name="senha" placeholder="Informe sua senha" required><br><br>
+				
+			<select class="w3-input w3-border w3-white" name="sexo" required>
+				<option value="Masculino">Masculino</option>
+				<option value="Feminino">Feminino</option>
+				<option value="Outros">Outros</option>
+			</select>
+			
+			<br>
+			Data de Nascimento<br>
+			<input class="w3-input w3-border w3-white" type="Date" required><br>
+			
+			<b>Acessa a internet nos horarios:</b><br>
+				<input type="radio" value="Manhã" name="acessointernet">Manhã</input><br>
+				<input type="radio" value="Tarde" name="acessointernet">Tarde</input><br>
+				<input type="radio" value="Noite" name="acessointernet">Noite</input>
+				<br><br>
+				
+			<b>Gosta de:</b><br>
+			<input type="checkbox" value="Cinema" name="gostade">Filmes</input><br>
+			<input type="checkbox" value="Teatro" name="gostade">Series</input><br>
+			<input type="checkbox" value="Esporte" name="gostade">Jogos</input><br>
+			<br>
+			
+			<b>Enviar uma Foto</b><br>
+			<input type="file" name="arquivo"/><br><br>
+			<input type="file" name="arquivo"/><br><br>
+			
+			<input class="w3-input w3-border w3-red" type="submit" name="enviar" value="Enviar Agora"/>
+			<br>
+			</form>
+		</div>
+			
+		<!-- Final do Form -->
+	</body>
+</html>
